@@ -5,7 +5,6 @@ The application provides an environment to explore how different local feature d
 ## Key Features
 - Feature Detection & Description: Utilizes ORB (Oriented FAST and Rotated BRIEF) and SIFT (Scale-Invariant Feature Transform) to identify and describe keypoints.
 - Descriptor Matching: Implements both Brute-Force (BF) matching and FLANN-based (Fast Library for Approximate Nearest Neighbors) matching.
-- Dynamic Matching Visualization: Displays the "Best $N$ Matches" between two images, adjustable via an interactive trackbar.
 - Image Stitching: Automatically stitches three consecutive images into a single panoramic view using homography estimation.
 ## Objective
 The primary goal of this assignment is to master the pipeline for geometric computer vision tasks. Key technical objectives include:
