@@ -2,8 +2,8 @@
 This repository contains a Python-based real-time video processing application developed for the Computer Vision course in the Robotics Engineering program at Universidad Carlos III de Madrid (UC3M). The project implements a complete computer vision pipeline, from color space transformations to advanced edge detection, all managed through an interactive mosaic dashboard.
 ## Description
 The application captures a live video stream and processes it through multiple filters and algorithms simultaneously. It utilizes a mosaic layout to display the original feed, various color spaces, live histograms, and different edge detection results in a single synchronized window
-## Key FeaturesMulti-Space Visualization:
-- Real-time display of Original (BGR), Grayscale, and HSV color spaces.
+## Key Features
+- Multi-Space Visualization: Real-time display of Original (BGR), Grayscale, and HSV color spaces.
 - Live Histograms: Dynamic computation and rendering of histograms for all color spaces, including multi-channel (B, G, R) and HSV overlays
 - Interactive Parameter Control: Integrated trackbars to adjust Gaussian blur kernels and Canny edge detection thresholds on the fly
 - Edge Detection Comparison: Side-by-side comparison of manual Sobel implementation, Canny, and Laplacian of Gaussian (LoG) methods.
