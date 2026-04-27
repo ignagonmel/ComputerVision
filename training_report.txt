@@ -1,0 +1,57 @@
+======================================================================
+ ANIMAL CLASSIFICATION - TRAINING REPORT
+======================================================================
+
+Classes (7): cat, chicken, cow, dog, elephant, horse, sheep
+Image size: 224x224 pixels
+Batch size: 16
+
+Training images: ~8416
+Validation images: ~2608
+Test images: ~2624
+
+Epochs trained: 80/80
+Best training accuracy: 96.40%
+Best validation accuracy: 81.55%
+Final test accuracy: 81.95%
+Final test loss: 0.8583
+
+Class Weights (for imbalanced dataset):
+  cat: 1.001
+  chicken: 1.097
+  cow: 0.905
+  dog: 0.896
+  elephant: 1.136
+  horse: 1.079
+  sheep: 0.943
+
+======================================================================
+ CLASSIFICATION REPORT (Per-Class Metrics)
+======================================================================
+
+              precision    recall  f1-score   support
+
+         cat       0.80      0.88      0.84       251
+     chicken       0.88      0.91      0.90       465
+         cow       0.84      0.71      0.77       280
+         dog       0.93      0.72      0.81       730
+    elephant       0.60      0.93      0.73       217
+       horse       0.86      0.85      0.85       394
+       sheep       0.72      0.86      0.78       273
+
+    accuracy                           0.82      2610
+   macro avg       0.80      0.84      0.81      2610
+weighted avg       0.84      0.82      0.82      2610
+
+======================================================================
+ CONFUSION MATRIX
+======================================================================
+
+              cat   chicken       cow       dog  elephant     horse     sheep
+     cat      221         5         1        13         6         0         5
+ chicken        4       425         4         7        14         5         6
+     cow        6         5       198        12        19         9        31
+     dog       41        29        12       526        55        34        33
+elephant        1         5         0         0       201         4         6
+   horse        2         5        15         5        23       334        10
+   sheep        1        10         7         3        15         3       234
