@@ -44,3 +44,4 @@ Upon completion, the script automatically generates:
 - training_graphs.png: Accuracy and Loss evolution curves.
 - prediction_examples.png: A grid of 12 test images with predicted vs. true labels.
 - best_model.keras: The saved weights of the most accurate iteration.
+  Download: https://drive.google.com/drive/folders/17RL6uSQcTLzJetj-Q3OCMCguOd489nqw?usp=sharing
